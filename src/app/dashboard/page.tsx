@@ -1,16 +1,8 @@
-import { CreateTodoForm } from "@/components/CreateTodoForm";
-import { TodoList } from "@/components/TodoList";
-
-export default function Home() {
+export default function DashboardPage() {
   return (
-    <div className="max-w-xl mx-auto">
-      <h1 className="text-center text-3xl font-bold mb-3">TODO APP</h1>
-        <div className="mb-6">
-          <CreateTodoForm />
-        </div>
-      <div className="bg-amber-100 p-5 rounded-lg">
-        <TodoList />
-      </div>
-    </div>
+    <main className="p-4">
+      <h1 className="text-2xl font-bold">Welcome to your Dashboard!</h1>
+      <p className="mt-2 text-gray-600">このページは正常に動作しています。</p>
+    </main>
   );
 }
