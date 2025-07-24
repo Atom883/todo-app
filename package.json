@@ -9,13 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@clerk/backend": "^2.4.5",
-    "@clerk/nextjs": "^6.24.0",
+    "@clerk/backend": "^2.5.0",
+    "@clerk/nextjs": "^6.25.4",
     "@prisma/client": "^6.11.1",
-    "@supabase/supabase-js": "^2.51.0",
+    "@supabase/supabase-js": "^2.52.0",
+    "framer-motion": "^12.23.6",
     "next": "15.3.5",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "svix": "^1.69.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
